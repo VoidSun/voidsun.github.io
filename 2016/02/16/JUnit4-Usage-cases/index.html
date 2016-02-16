@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=5.0.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="大学时光," />
+  <meta name="keywords" content="Junit," />
 
 
 
@@ -59,16 +59,25 @@
 
 
 
-<meta name="description" content="又是一个夏去秋来的季节，抬头看了看窗外，才发现这么美丽的天空还是很久以前才停下来欣赏过，一直都是忙碌着，忙碌着，转眼间自己已经是站在大学与社会交接处的大四学生了，回首我的大学生活，心情是那么的百般复杂，犹如昨夜被风雨吹打过得草地，留下的，除了汗水，还有一颗晶莹剔透而又五彩斑斓的心。大学有太多太多的事物可以反复回味并从中受益，而那些如今让我记忆犹新的东西已经改变了我，让我不再胆怯，不再茫然，不再异想">
+<meta name="description" content="1.JUnit概述
+在软件开发领域，从来就没有如此少的代码起到了如此重要的作用。   
+
+这句话源自Martin Fowler的评价，从这句话可以看出JUnit的特性和重要性。关于JUnit更为详细的阐述可以参见JUnit4IBM和JUnit4Eclipse，JUnit的源码参见JUnit4Github。本文也是在上述文献的基础上，旨在更加简单快捷使用，总结出一份JUnit的基本用例。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="College Life">
-<meta property="og:url" content="http://voidsun.net/2016/02/02/College-Life/index.html">
+<meta property="og:title" content="JUnit4用法用例">
+<meta property="og:url" content="http://voidsun.net/2016/02/16/JUnit4-Usage-cases/index.html">
 <meta property="og:site_name" content="VoidSun">
-<meta property="og:description" content="又是一个夏去秋来的季节，抬头看了看窗外，才发现这么美丽的天空还是很久以前才停下来欣赏过，一直都是忙碌着，忙碌着，转眼间自己已经是站在大学与社会交接处的大四学生了，回首我的大学生活，心情是那么的百般复杂，犹如昨夜被风雨吹打过得草地，留下的，除了汗水，还有一颗晶莹剔透而又五彩斑斓的心。大学有太多太多的事物可以反复回味并从中受益，而那些如今让我记忆犹新的东西已经改变了我，让我不再胆怯，不再茫然，不再异想">
-<meta property="og:updated_time" content="2016-02-02T12:35:48.000Z">
+<meta property="og:description" content="1.JUnit概述
+在软件开发领域，从来就没有如此少的代码起到了如此重要的作用。   
+
+这句话源自Martin Fowler的评价，从这句话可以看出JUnit的特性和重要性。关于JUnit更为详细的阐述可以参见JUnit4IBM和JUnit4Eclipse，JUnit的源码参见JUnit4Github。本文也是在上述文献的基础上，旨在更加简单快捷使用，总结出一份JUnit的基本用例。">
+<meta property="og:updated_time" content="2016-02-16T11:13:54.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="College Life">
-<meta name="twitter:description" content="又是一个夏去秋来的季节，抬头看了看窗外，才发现这么美丽的天空还是很久以前才停下来欣赏过，一直都是忙碌着，忙碌着，转眼间自己已经是站在大学与社会交接处的大四学生了，回首我的大学生活，心情是那么的百般复杂，犹如昨夜被风雨吹打过得草地，留下的，除了汗水，还有一颗晶莹剔透而又五彩斑斓的心。大学有太多太多的事物可以反复回味并从中受益，而那些如今让我记忆犹新的东西已经改变了我，让我不再胆怯，不再茫然，不再异想">
+<meta name="twitter:title" content="JUnit4用法用例">
+<meta name="twitter:description" content="1.JUnit概述
+在软件开发领域，从来就没有如此少的代码起到了如此重要的作用。   
+
+这句话源自Martin Fowler的评价，从这句话可以看出JUnit的特性和重要性。关于JUnit更为详细的阐述可以参见JUnit4IBM和JUnit4Eclipse，JUnit的源码参见JUnit4Github。本文也是在上述文献的基础上，旨在更加简单快捷使用，总结出一份JUnit的基本用例。">
 
 
 
@@ -86,7 +95,7 @@
   };
 </script>
 
-  <title> College Life | VoidSun </title>
+  <title> JUnit4用法用例 | VoidSun </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -224,7 +233,7 @@
             
             
               
-                College Life
+                JUnit4用法用例
               
             
           </h1>
@@ -236,8 +245,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-02-02T20:23:51+08:00" content="2016-02-02">
-              2016-02-02
+            <time itemprop="dateCreated" datetime="2016-02-16T19:01:50+08:00" content="2016-02-16">
+              2016-02-16
             </time>
           </span>
 
@@ -250,8 +259,20 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/维度生活/" itemprop="url" rel="index">
-                    <span itemprop="name">维度生活</span>
+                  <a href="/categories/猿来如此/" itemprop="url" rel="index">
+                    <span itemprop="name">猿来如此</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/猿来如此/学习笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">学习笔记</span>
                   </a>
                 </span>
 
@@ -266,8 +287,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/02/02/College-Life/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/02/02/College-Life/" itemprop="commentsCount"></span>
+                <a href="/2016/02/16/JUnit4-Usage-cases/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/02/16/JUnit4-Usage-cases/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -277,7 +298,7 @@
 
           
           
-             <span id="/2016/02/02/College-Life/" class="leancloud_visitors" data-flag-title="College Life">
+             <span id="/2016/02/16/JUnit4-Usage-cases/" class="leancloud_visitors" data-flag-title="JUnit4用法用例">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -296,13 +317,118 @@
       
 
       
-        <p>又是一个夏去秋来的季节，抬头看了看窗外，才发现这么美丽的天空还是很久以前才停下来欣赏过，一直都是忙碌着，忙碌着，转眼间自己已经是站在大学与社会交接处的大四学生了，回首我的大学生活，心情是那么的百般复杂，犹如昨夜被风雨吹打过得草地，留下的，除了汗水，还有一颗晶莹剔透而又五彩斑斓的心。大学有太多太多的事物可以反复回味并从中受益，而那些如今让我记忆犹新的东西已经改变了我，让我不再胆怯，不再茫然，不再异想天开，不再随波逐流，不再忘记最初的梦想<br>。<br><a id="more"></a><br>或许和很多人一样，来到@@@并不是自己的初衷，当初以为自己可以走的更好，但是当我真正步入大学，却改变了这样的想法，因为我相信大学是一个崭新的起点。曾经我很内向，真正能很好沟通的朋友屈指可数，大学完全不一样的氛围冲击了我的所有感官，参加@@@的面试是第一次让我如此真诚的面对自己，在我认为的高压状况下，我开始变得淡定从容，变得心平气和，也开始变得有思想和有目标。因此，不管现状如何，也不要去过于埋怨，努力去尝试不同领域里的事物，比如我文章写得不好，却因为喜欢投过两次文章，很幸运都被发表在了校园的**专栏上，记得当时自己还特意收藏过那些书籍。不管我们有没有去刻意规划，有没有去做好准备，都要有一颗勇于尝试的心，也可以让自己有更丰富的经历，然后慢慢成长，收获到意想不到的东西并爱上这个我们曾经不喜欢的地方。   </p>
-<p>因为喜欢，所以坚持。很多我们有意或者无意喜欢的东西，值得我们去执着。我喜欢数学并毫不犹豫的加入了的数学协会，以至于使得数学建模在我的大学生活中占据着一大部分的记忆。喜欢，就会去坚持，即使冬天的周末都要天初亮就赶去@@@大学抢占培训的座位；即使每周二晚上听完大学物理课已经很晚了，也还要继续去听仅剩三十分钟的数学建模公共课；即使我们的对手是全国异或国际上的各个高校以及我们完全没有接触的新领域，我们都选择去经历困难与幸运，去收获挫败与成功。我经历过四天四夜的比赛连续四十个小时没有合眼，也收获过一次又一次预期的成绩；我经历过因为小小的问题与队友不欢而散和一次次的挫败感，也收获过与他们一起难忘论题过程；亲身经历这些，使我拥有了更加强大的内心，更加深厚的友谊，收获了别人不曾体验的人生。   </p>
-<p>因为选择，所以不轻言放弃。很多东西一旦选择了，就必然有一个适当的理由去坚持。算法、数模于我都是极其重要的，初遇数模就结识了ACM，这也成为我大学最想去完成的两项任务。于是一结束数模就加入了ACM的紧张备战中，由于我们起步太晚，基础太薄弱，让我吃了不少亏，所以只能在暑假自我集训。即使压力大、时间紧，能力差，但至少我们在一直努力，很欣慰能够晋级亚洲区域赛，我知道此次参赛不一定会达到理想的成绩，但追求更上一层楼的心一直与我同行，至少这样的一次体验过后人生也就完整了。   </p>
-<p>综合能力的培养是最重要的，这也是让我们变得更好的方式。记得曾经@@@对学生的综合能力总结为：自学能力、创新能力、沟通能力、团队协作能力、适应能力、表达能力。现在回想起来，刚加入数学协会时我不过是一个不起眼的成员，而我一直坚持着并成为了数学与建模联盟的第一届理事长，当时只知道这意味着我的责任很大。我们十多个任职人员一起，经过一年的奋斗，将联盟发展成为了一个温馨大家庭，不仅依旧发扬着数学与数学建模的传统优势，还制定出了一系列的发展模式。让每一个会员都享受着最系统也最亲切的联盟氛围；在教练组的信任下，借鉴了@@@ACM集训队的机制，结合学院的培训模式，创立了我们自己学校的数学建模集训队。也因为集训队员的努力奋斗，一直刷新着学院的记录，我们保持着学院的新纪录：美国国际大学生数学建模竞赛一等奖；荣誉榜上写着“记录在那里，每个人都有权利和能力去挑战”，我想也许就是那份荣誉榜的意义所在。而我在这之后加入了老师的创业团队，任职@@@，分管学生团队以及负责最喜欢的数据分析项目。回顾这些，我锻炼着自己的领导力、团队协作能力、沟通表达能力…….而给予这些能力的正是数学建模的另一个魅力。   </p>
-<p>校园里有我喜欢的特殊的宁静，这里的一草一木，这里的老师和同学，这里的队友和对手，都将随着这片宁静一起消融。大学里老师的悉心教导、教练的无比信任、朋友间的酸甜苦辣、同学的关心帮助、队友的奋斗经历……那些曾经看轻我的人，那些一直相信我的人，都是我人生路上不可或缺的力量。也正是因为有你们，才会有我大学生活所拥有的一切，才会让我觉得我一直都不是一个人在奋斗。   </p>
-<p><em>曾经迷茫，也曾经辉煌，但时间不再任青春挥霍，欲望超不过知足令人不安，回忆最初的自己，你我都回不去，成长的代价是苦涩的。这一路泥泞的大学即将走完，回过头才发现其中的酸甜苦辣是多么刻骨铭心，不敢展望未来，能力的局限，时间的苍白，早已不能知晓什么才会留下曾经的美好以及未来的需要，但每个人都有追梦的权利与独特的角度，因此，那样的目标和动力才会是实现梦想的源泉。</em>   </p>
-<p>每个人的大学生活都有自己不一样方式或者骄傲的地方，远不止简简单单的文字就能够完美叙述，但那些最珍贵的回忆，只有真正去经历了，才会懂得。<br><br><br>作者：@沁路<br>于2014.10校园初秋角落<br><br></p>
+        <h2 id="1-JUnit_u6982_u8FF0"><a href="#1-JUnit_u6982_u8FF0" class="headerlink" title="1.JUnit概述"></a>1.JUnit概述</h2><blockquote>
+<p>在软件开发领域，从来就没有如此少的代码起到了如此重要的作用。   </p>
+</blockquote>
+<p>这句话源自Martin Fowler的评价，从这句话可以看出JUnit的特性和重要性。关于JUnit更为详细的阐述可以参见<a href="http://www.ibm.com/developerworks/cn/java/j-junit4.html" target="_blank" rel="external">JUnit4IBM</a>和<a href="http://blog.csdn.net/andycpp/article/details/1327147" target="_blank" rel="external">JUnit4Eclipse</a>，JUnit的源码参见<a href="https://github.com/junit-team" target="_blank" rel="external">JUnit4Github</a>。本文也是在上述文献的基础上，旨在更加简单快捷使用，总结出一份JUnit的基本用例。<br><a id="more"></a></p>
+<h2 id="2-JUnit_u57FA_u672C_u7528_u4F8B"><a href="#2-JUnit_u57FA_u672C_u7528_u4F8B" class="headerlink" title="2.JUnit基本用例"></a>2.JUnit基本用例</h2><p>本用例只是基于JUnit4的用法，使用最基本且最易懂的注释方式进行阐述。   </p>
+<pre><code class="java"><span class="keyword">package</span> com.voidsun.junit.test;
+
+<span class="comment">// 使用static修饰，类似断言Assert.assertEquals(x,y)，则简化为assertEquals(x,y)</span>
+<span class="keyword">import</span> <span class="keyword">static</span> org.junit.Assert.*;
+<span class="keyword">import</span> org.junit.BeforeClass;
+<span class="keyword">import</span> org.junit.AfterClass;
+<span class="keyword">import</span> org.junit.Before;
+<span class="keyword">import</span> org.junit.After;
+<span class="keyword">import</span> org.junit.Test;
+<span class="keyword">import</span> org.junit.Ignore;
+<span class="keyword">import</span> org.junit.FixMethodOrder;
+<span class="keyword">import</span> org.junit.runners.MethodSorters;
+
+<span class="comment">// 测试类的执行顺序注解 “@FixMethodOrder(value)” </span>
+<span class="comment">// 默认（MethodSorters.DEFAULT），按方法名（MethodSorters.NAME_ASCENDING）和JVM（MethodSorters.JVM）</span>
+<span class="meta">@FixMethodOrder</span>(MethodSorters.NAME_ASCENDING)
+<span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">JunitTest</span></span>{
+
+    <span class="comment">// 该类中的测试方法运行之前刚好运行一次</span>
+    <span class="meta">@BeforeClass</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">initBeforClass</span><span class="params">()</span> </span>{
+        <span class="comment">// 可以初始化Bean，可以是公共数据库连接、网络连接，也可以是公用数据结构等等</span>
+    }
+
+    <span class="comment">// 该类中的所有测试都运行之后刚好运行一次</span>
+    <span class="meta">@AfterClass</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">tearDownClass</span><span class="params">()</span> </span>{
+        <span class="comment">// 可以关闭数据库连接、还原初始数据等等</span>
+    }
+
+    <span class="comment">// 在测试方法之前运行</span>
+    <span class="meta">@Before</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">initSetUp</span><span class="params">()</span></span>{
+        <span class="comment">// 可以注释多个方法，这些方法都在每个测试之前运行</span>
+        <span class="comment">// 可以初始化字段值、打开日志记录等等</span>
+    }
+
+    <span class="comment">// 在每个测试方法之后运行</span>
+    <span class="meta">@After</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">tearDownAfter</span><span class="params">()</span></span>{
+        <span class="comment">// 可以注释多个清除方法</span>
+    }
+
+    <span class="comment">// 测试方法，根据测试类的执行顺序，一般方法命名规范：testxxxNAME,xxx为数字(越小越先)，NAME一般是实际测试的方法名，或者需要测试的其他方法</span>
+    <span class="meta">@Test</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test001JunitTest</span><span class="params">()</span></span>{
+        <span class="comment">// 断言方法简述列表，均不对参数进行说明</span>
+        assertTrue(); <span class="comment">// 判断condition是否为true</span>
+        assertFalse(); <span class="comment">// 判断condition是否为false</span>
+        fail(); <span class="comment">// 测试失败，抛出消息</span>
+        assertEquals(); <span class="comment">// 判断两个对象是否相等，支持Object、long、double、Object[]、byte[]、char[]、short[]、int[]、long[]、double[]、float[]等</span>
+        assertNotEquals(); <span class="comment">// 判断两个对象是否不相等，支持Object、long、double、Object[]、byte[]、char[]、short[]、int[]、long[]、double[]、float[]等</span>
+        internalArrayEquals(); <span class="comment">// 判断两个对象数组是否相等</span>
+        assertNotNull(); <span class="comment">// 判断某个对象是否不为NULL</span>
+        assertNull(); <span class="comment">// 判断某个对象是否为NULL</span>
+        assertSame(); <span class="comment">// 判断两个对象是否引用相同对象</span>
+        assertNotSame(); <span class="comment">// 判断两个对象是否引用不是同一个对象</span>
+        assertThat(); <span class="comment">// </span>
+        ...
+    }
+
+    <span class="comment">// 声明该异常是预期的</span>
+    <span class="meta">@Test</span>(expected=ArithmeticException.class) 
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test002JunitExpectedTest</span><span class="params">()</span></span>{
+        <span class="comment">// 如果该异常没有抛出（或者抛出了一个不同的异常），那么测试就将失败。但是如果您想要测试异常的详细消息或其他属性，则仍然需要使用旧式的try-catch 样式。</span>
+
+        <span class="comment">// 旧式的try-catch 样式</span>
+        <span class="keyword">try</span> {
+            <span class="keyword">int</span> n = <span class="number">1</span> / <span class="number">0</span>;
+            fail(<span class="string">"Divided by zero!"</span>);
+        }<span class="keyword">catch</span> (ArithmeticException ae) {
+               assertNotNull(ae.getMessage());
+            }
+    }
+
+    <span class="comment">// 超时时间测试</span>
+    <span class="meta">@Test</span>(timeout=<span class="number">500</span>)
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test003JunitTimeOutTest</span><span class="params">()</span></span>{
+        <span class="comment">// 测试运行的时间超过指定的毫秒数，则测试失败</span>
+        <span class="comment">// 可以测试性能、可以是测试调用某个服务和方法超时等等</span>
+    }
+
+    <span class="comment">// 被忽略的测试</span>
+    <span class="meta">@Ignore</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test004JunitIgnore</span><span class="params">()</span></span>{
+        <span class="comment">// 可以是想要跳过的运行时间长的测试方法、调用远程或者第三方的服务等等</span>
+    }
+}
+</code></pre>
+<p>当一个项目中存在很多个测试代码，你需要根据一些条件去执行你的部分测试代码（例如测试查询类的、调用类的等），即打包测试。则可自己编写Runner运行器，通过@SuiteClasses进行集成打包测试，基本用法用例如下：   </p>
+<pre><code class="java"><span class="keyword">package</span> com.voidsun.junit.test.suite;
+
+<span class="keyword">import</span> org.junit.runner.RunWith;
+<span class="keyword">import</span> org.junit.runners.Suite;
+<span class="keyword">import</span> org.junit.runners.Suite.SuiteClasses;
+<span class="keyword">import</span> com.voidsun.junit.test.JunitTest_T1;
+<span class="keyword">import</span> com.voidsun.junit.test.JunitTest_T2;
+
+<span class="comment">// 指定一个Runner</span>
+<span class="meta">@RunWith</span>(value = Suite.class)
+<span class="comment">// 打包测试</span>
+<span class="meta">@SuiteClasses</span>(value = { JunitTest_T1.class, JunitTest_T2.class })
+<span class="keyword">public</span> calss JunitTestSuite{
+    ...
+}
+</code></pre>
+<p>除上述基本功能外，JUnit还有很多其他功能，本文将不赘述。<br><br><br></p>
 
       
     </div>
@@ -311,7 +437,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/大学时光/" rel="tag">#大学时光</a>
+            <a href="/tags/Junit/" rel="tag">#Junit</a>
           
         </div>
       
@@ -320,17 +446,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/01/31/【沁路墨言】思乡之切/" rel="next" title="【沁路墨言】思乡之切">
-                <i class="fa fa-chevron-left"></i> 【沁路墨言】思乡之切
+              <a href="/2016/02/02/【沁路墨言】新芽/" rel="next" title="【沁路墨言】新芽">
+                <i class="fa fa-chevron-left"></i> 【沁路墨言】新芽
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/02/02/【沁路墨言】思索/" rel="prev" title="【沁路墨言】思索">
-                【沁路墨言】思索 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -345,10 +467,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2016/02/02/College-Life/"
-     data-title="College Life"
+        <div class="ds-share flat" data-thread-key="2016/02/16/JUnit4-Usage-cases/"
+     data-title="JUnit4用法用例"
      data-content=""
-     data-url="http://voidsun.net/2016/02/02/College-Life/">
+     data-url="http://voidsun.net/2016/02/16/JUnit4-Usage-cases/">
     <div class="ds-share-inline">
       <ul  class="ds-share-icons-16">
 
@@ -375,8 +497,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/02/02/College-Life/"
-           data-title="College Life" data-url="http://voidsun.net/2016/02/02/College-Life/">
+      <div class="ds-thread" data-thread-key="2016/02/16/JUnit4-Usage-cases/"
+           data-title="JUnit4用法用例" data-url="http://voidsun.net/2016/02/16/JUnit4-Usage-cases/">
      	<script type="text/javascript">
                 var duoshuoQuery = {short_name:"voidsun"};
                 (function() {
@@ -532,7 +654,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-JUnit_u6982_u8FF0"><span class="nav-number">1.</span> <span class="nav-text">1.JUnit概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-JUnit_u57FA_u672C_u7528_u4F8B"><span class="nav-number">2.</span> <span class="nav-text">2.JUnit基本用例</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[沁路，会写作的猿思维。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://voidsun.net/"/>
-  <updated>2016-02-04T15:00:35.000Z</updated>
+  <updated>2016-02-16T11:13:54.000Z</updated>
   <id>http://voidsun.net/</id>
   
   <author>
@@ -13,6 +13,141 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[JUnit4用法用例]]></title>
+    <link href="http://voidsun.net/2016/02/16/JUnit4-Usage-cases/"/>
+    <id>http://voidsun.net/2016/02/16/JUnit4-Usage-cases/</id>
+    <published>2016-02-16T11:01:50.000Z</published>
+    <updated>2016-02-16T11:13:54.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="1-JUnit_u6982_u8FF0"><a href="#1-JUnit_u6982_u8FF0" class="headerlink" title="1.JUnit概述"></a>1.JUnit概述</h2><blockquote>
+<p>在软件开发领域，从来就没有如此少的代码起到了如此重要的作用。   </p>
+</blockquote>
+<p>这句话源自Martin Fowler的评价，从这句话可以看出JUnit的特性和重要性。关于JUnit更为详细的阐述可以参见<a href="http://www.ibm.com/developerworks/cn/java/j-junit4.html" target="_blank" rel="external">JUnit4IBM</a>和<a href="http://blog.csdn.net/andycpp/article/details/1327147" target="_blank" rel="external">JUnit4Eclipse</a>，JUnit的源码参见<a href="https://github.com/junit-team" target="_blank" rel="external">JUnit4Github</a>。本文也是在上述文献的基础上，旨在更加简单快捷使用，总结出一份JUnit的基本用例。<br><a id="more"></a></p>
+<h2 id="2-JUnit_u57FA_u672C_u7528_u4F8B"><a href="#2-JUnit_u57FA_u672C_u7528_u4F8B" class="headerlink" title="2.JUnit基本用例"></a>2.JUnit基本用例</h2><p>本用例只是基于JUnit4的用法，使用最基本且最易懂的注释方式进行阐述。   </p>
+<pre><code class="java"><span class="keyword">package</span> com.voidsun.junit.test;
+
+<span class="comment">// 使用static修饰，类似断言Assert.assertEquals(x,y)，则简化为assertEquals(x,y)</span>
+<span class="keyword">import</span> <span class="keyword">static</span> org.junit.Assert.*;
+<span class="keyword">import</span> org.junit.BeforeClass;
+<span class="keyword">import</span> org.junit.AfterClass;
+<span class="keyword">import</span> org.junit.Before;
+<span class="keyword">import</span> org.junit.After;
+<span class="keyword">import</span> org.junit.Test;
+<span class="keyword">import</span> org.junit.Ignore;
+<span class="keyword">import</span> org.junit.FixMethodOrder;
+<span class="keyword">import</span> org.junit.runners.MethodSorters;
+
+<span class="comment">// 测试类的执行顺序注解 “@FixMethodOrder(value)” </span>
+<span class="comment">// 默认（MethodSorters.DEFAULT），按方法名（MethodSorters.NAME_ASCENDING）和JVM（MethodSorters.JVM）</span>
+<span class="meta">@FixMethodOrder</span>(MethodSorters.NAME_ASCENDING)
+<span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">JunitTest</span></span>{
+
+    <span class="comment">// 该类中的测试方法运行之前刚好运行一次</span>
+    <span class="meta">@BeforeClass</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">initBeforClass</span><span class="params">()</span> </span>{
+        <span class="comment">// 可以初始化Bean，可以是公共数据库连接、网络连接，也可以是公用数据结构等等</span>
+    }
+
+    <span class="comment">// 该类中的所有测试都运行之后刚好运行一次</span>
+    <span class="meta">@AfterClass</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">tearDownClass</span><span class="params">()</span> </span>{
+        <span class="comment">// 可以关闭数据库连接、还原初始数据等等</span>
+    }
+
+    <span class="comment">// 在测试方法之前运行</span>
+    <span class="meta">@Before</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">initSetUp</span><span class="params">()</span></span>{
+        <span class="comment">// 可以注释多个方法，这些方法都在每个测试之前运行</span>
+        <span class="comment">// 可以初始化字段值、打开日志记录等等</span>
+    }
+
+    <span class="comment">// 在每个测试方法之后运行</span>
+    <span class="meta">@After</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">tearDownAfter</span><span class="params">()</span></span>{
+        <span class="comment">// 可以注释多个清除方法</span>
+    }
+
+    <span class="comment">// 测试方法，根据测试类的执行顺序，一般方法命名规范：testxxxNAME,xxx为数字(越小越先)，NAME一般是实际测试的方法名，或者需要测试的其他方法</span>
+    <span class="meta">@Test</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test001JunitTest</span><span class="params">()</span></span>{
+        <span class="comment">// 断言方法简述列表，均不对参数进行说明</span>
+        assertTrue(); <span class="comment">// 判断condition是否为true</span>
+        assertFalse(); <span class="comment">// 判断condition是否为false</span>
+        fail(); <span class="comment">// 测试失败，抛出消息</span>
+        assertEquals(); <span class="comment">// 判断两个对象是否相等，支持Object、long、double、Object[]、byte[]、char[]、short[]、int[]、long[]、double[]、float[]等</span>
+        assertNotEquals(); <span class="comment">// 判断两个对象是否不相等，支持Object、long、double、Object[]、byte[]、char[]、short[]、int[]、long[]、double[]、float[]等</span>
+        internalArrayEquals(); <span class="comment">// 判断两个对象数组是否相等</span>
+        assertNotNull(); <span class="comment">// 判断某个对象是否不为NULL</span>
+        assertNull(); <span class="comment">// 判断某个对象是否为NULL</span>
+        assertSame(); <span class="comment">// 判断两个对象是否引用相同对象</span>
+        assertNotSame(); <span class="comment">// 判断两个对象是否引用不是同一个对象</span>
+        assertThat(); <span class="comment">// </span>
+        ...
+    }
+
+    <span class="comment">// 声明该异常是预期的</span>
+    <span class="meta">@Test</span>(expected=ArithmeticException.class) 
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test002JunitExpectedTest</span><span class="params">()</span></span>{
+        <span class="comment">// 如果该异常没有抛出（或者抛出了一个不同的异常），那么测试就将失败。但是如果您想要测试异常的详细消息或其他属性，则仍然需要使用旧式的try-catch 样式。</span>
+
+        <span class="comment">// 旧式的try-catch 样式</span>
+        <span class="keyword">try</span> {
+            <span class="keyword">int</span> n = <span class="number">1</span> / <span class="number">0</span>;
+            fail(<span class="string">"Divided by zero!"</span>);
+        }<span class="keyword">catch</span> (ArithmeticException ae) {
+               assertNotNull(ae.getMessage());
+            }
+    }
+
+    <span class="comment">// 超时时间测试</span>
+    <span class="meta">@Test</span>(timeout=<span class="number">500</span>)
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test003JunitTimeOutTest</span><span class="params">()</span></span>{
+        <span class="comment">// 测试运行的时间超过指定的毫秒数，则测试失败</span>
+        <span class="comment">// 可以测试性能、可以是测试调用某个服务和方法超时等等</span>
+    }
+
+    <span class="comment">// 被忽略的测试</span>
+    <span class="meta">@Ignore</span>
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test004JunitIgnore</span><span class="params">()</span></span>{
+        <span class="comment">// 可以是想要跳过的运行时间长的测试方法、调用远程或者第三方的服务等等</span>
+    }
+}
+</code></pre>
+<p>当一个项目中存在很多个测试代码，你需要根据一些条件去执行你的部分测试代码（例如测试查询类的、调用类的等），即打包测试。则可自己编写Runner运行器，通过@SuiteClasses进行集成打包测试，基本用法用例如下：   </p>
+<pre><code class="java"><span class="keyword">package</span> com.voidsun.junit.test.suite;
+
+<span class="keyword">import</span> org.junit.runner.RunWith;
+<span class="keyword">import</span> org.junit.runners.Suite;
+<span class="keyword">import</span> org.junit.runners.Suite.SuiteClasses;
+<span class="keyword">import</span> com.voidsun.junit.test.JunitTest_T1;
+<span class="keyword">import</span> com.voidsun.junit.test.JunitTest_T2;
+
+<span class="comment">// 指定一个Runner</span>
+<span class="meta">@RunWith</span>(value = Suite.class)
+<span class="comment">// 打包测试</span>
+<span class="meta">@SuiteClasses</span>(value = { JunitTest_T1.class, JunitTest_T2.class })
+<span class="keyword">public</span> calss JunitTestSuite{
+    ...
+}
+</code></pre>
+<p>除上述基本功能外，JUnit还有很多其他功能，本文将不赘述。<br><br><br></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="1-JUnit_u6982_u8FF0"><a href="#1-JUnit_u6982_u8FF0" class="headerlink" title="1.JUnit概述"></a>1.JUnit概述</h2><blockquote>
+<p>在软件开发领域，从来就没有如此少的代码起到了如此重要的作用。   </p>
+</blockquote>
+<p>这句话源自Martin Fowler的评价，从这句话可以看出JUnit的特性和重要性。关于JUnit更为详细的阐述可以参见<a href="http://www.ibm.com/developerworks/cn/java/j-junit4.html">JUnit4IBM</a>和<a href="http://blog.csdn.net/andycpp/article/details/1327147">JUnit4Eclipse</a>，JUnit的源码参见<a href="https://github.com/junit-team">JUnit4Github</a>。本文也是在上述文献的基础上，旨在更加简单快捷使用，总结出一份JUnit的基本用例。<br>]]>
+    
+    </summary>
+    
+      <category term="Junit" scheme="http://voidsun.net/tags/Junit/"/>
+    
+      <category term="猿来如此" scheme="http://voidsun.net/categories/%E7%8C%BF%E6%9D%A5%E5%A6%82%E6%AD%A4/"/>
+    
+      <category term="学习笔记" scheme="http://voidsun.net/categories/%E7%8C%BF%E6%9D%A5%E5%A6%82%E6%AD%A4/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[【沁路墨言】新芽]]></title>
