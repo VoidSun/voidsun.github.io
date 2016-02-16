@@ -1330,7 +1330,7 @@ pre .javascript .function {
 .posts-expand .post-eof {
   display: block;
   margin: 70px auto 50px;
-  width: 8%;
+  width: 29%;
   height: 1px;
   background: #ccc;
   text-align: center;
@@ -1515,7 +1515,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #008c52;
+  background: #37ffbb;
 }
 .sidebar-nav {
   margin: 0 0 20px;
