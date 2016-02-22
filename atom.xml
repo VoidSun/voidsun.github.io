@@ -3,9 +3,9 @@
   <title><![CDATA[VoidSun]]></title>
   <subtitle><![CDATA[沁路，会写作的猿思维。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://voidsun.net/"/>
+  <link href="http://voidsun.github.io/"/>
   <updated>2016-02-22T10:38:31.000Z</updated>
-  <id>http://voidsun.net/</id>
+  <id>http://voidsun.github.io/</id>
   
   <author>
     <name><![CDATA[VoidSun]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[JUnit4用法用例]]></title>
-    <link href="http://voidsun.net/2016/02/16/JUnit4-Usage-cases/"/>
-    <id>http://voidsun.net/2016/02/16/JUnit4-Usage-cases/</id>
+    <link href="http://voidsun.github.io/2016/02/16/JUnit4-Usage-cases/"/>
+    <id>http://voidsun.github.io/2016/02/16/JUnit4-Usage-cases/</id>
     <published>2016-02-16T11:01:50.000Z</published>
     <updated>2016-02-22T10:38:31.000Z</updated>
     <content type="html"><![CDATA[<h2 id="0x00_JUnit_u6982_u8FF0"><a href="#0x00_JUnit_u6982_u8FF0" class="headerlink" title="0x00 JUnit概述"></a>0x00 JUnit概述</h2><blockquote>
@@ -141,25 +141,25 @@
     
     </summary>
     
-      <category term="Junit" scheme="http://voidsun.net/tags/Junit/"/>
+      <category term="Junit" scheme="http://voidsun.github.io/tags/Junit/"/>
     
-      <category term="猿来如此" scheme="http://voidsun.net/categories/%E7%8C%BF%E6%9D%A5%E5%A6%82%E6%AD%A4/"/>
+      <category term="猿来如此" scheme="http://voidsun.github.io/categories/%E7%8C%BF%E6%9D%A5%E5%A6%82%E6%AD%A4/"/>
     
-      <category term="读书笔记" scheme="http://voidsun.net/categories/%E7%8C%BF%E6%9D%A5%E5%A6%82%E6%AD%A4/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="http://voidsun.github.io/categories/%E7%8C%BF%E6%9D%A5%E5%A6%82%E6%AD%A4/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[【沁路墨言】新芽]]></title>
-    <link href="http://voidsun.net/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%96%B0%E8%8A%BD/"/>
-    <id>http://voidsun.net/2016/02/02/【沁路墨言】新芽/</id>
+    <link href="http://voidsun.github.io/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%96%B0%E8%8A%BD/"/>
+    <id>http://voidsun.github.io/2016/02/02/【沁路墨言】新芽/</id>
     <published>2016-02-02T13:01:43.000Z</published>
     <updated>2016-02-04T15:00:35.000Z</updated>
     <content type="html"><![CDATA[<p><blockquote class="blockquote-center">霜降落木声声脆，<br>风拂寒衣浸入心；<br>勿以归根话言语，<br>唯见新芽怒冲天。</blockquote><br><a id="more"></a></p>
 <p>作者：@沁路<br>于2013年12月寒冬</p>
 <p><br><br></p>
 <blockquote>
-<p><strong>作者</strong>：<strong>沁路</strong> <em><a href="http://voidsun.github.io/about/" target="_blank" rel="external">@VoidSun</a></em><br><strong>出处</strong>：<br><em><a href="http://voidsun.github.io/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%96%B0%E8%8A%BD/" target="_blank" rel="external">http://voidsun.github.io/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%96%B0%E8%8A%BD/</a></em><br><strong>声明</strong>：本文采用以下协议进行授权：<em><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 4.0</a></em>，转载请注明<strong>作者</strong>及<strong>出处</strong>。<br><br></p>
+<p><strong>作者</strong>：<strong>沁路</strong> <em><a href="http://voidsun.github.io/about/">@VoidSun</a></em><br><strong>出处</strong>：<br><em><a href="http://voidsun.github.io/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%96%B0%E8%8A%BD/">http://voidsun.github.io/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%96%B0%E8%8A%BD/</a></em><br><strong>声明</strong>：本文采用以下协议进行授权：<em><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 4.0</a></em>，转载请注明<strong>作者</strong>及<strong>出处</strong>。<br><br></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -167,16 +167,16 @@
     
     </summary>
     
-      <category term="沁路诗集" scheme="http://voidsun.net/tags/%E6%B2%81%E8%B7%AF%E8%AF%97%E9%9B%86/"/>
+      <category term="沁路诗集" scheme="http://voidsun.github.io/tags/%E6%B2%81%E8%B7%AF%E8%AF%97%E9%9B%86/"/>
     
-      <category term="沁路墨言" scheme="http://voidsun.net/categories/%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80/"/>
+      <category term="沁路墨言" scheme="http://voidsun.github.io/categories/%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[【沁路墨言】思索]]></title>
-    <link href="http://voidsun.net/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E7%B4%A2/"/>
-    <id>http://voidsun.net/2016/02/02/【沁路墨言】思索/</id>
+    <link href="http://voidsun.github.io/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E7%B4%A2/"/>
+    <id>http://voidsun.github.io/2016/02/02/【沁路墨言】思索/</id>
     <published>2016-02-02T12:43:11.000Z</published>
     <updated>2016-02-02T13:37:04.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -186,7 +186,7 @@
 <p>作者：@沁路<br>于2014.05备战前夕</p>
 <p><br><br></p>
 <blockquote>
-<p><strong>作者</strong>：<strong>沁路</strong> <em><a href="http://voidsun.github.io/about/" target="_blank" rel="external">@VoidSun</a></em><br><strong>出处</strong>：<br><em><a href="http://voidsun.github.io/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E7%B4%A2/" target="_blank" rel="external">http://voidsun.github.io/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E7%B4%A2/</a> </em><br><strong>声明</strong>：本文采用以下协议进行授权：<em><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 4.0</a></em>，转载请注明<strong>作者</strong>及<strong>出处</strong>。<br><br></p>
+<p><strong>作者</strong>：<strong>沁路</strong> <em><a href="http://voidsun.github.io/about/">@VoidSun</a></em><br><strong>出处</strong>：<br><em><a href="http://voidsun.github.io/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E7%B4%A2/">http://voidsun.github.io/2016/02/02/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E7%B4%A2/</a> </em><br><strong>声明</strong>：本文采用以下协议进行授权：<em><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 4.0</a></em>，转载请注明<strong>作者</strong>及<strong>出处</strong>。<br><br></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -196,16 +196,16 @@
     
     </summary>
     
-      <category term="沁路文集" scheme="http://voidsun.net/tags/%E6%B2%81%E8%B7%AF%E6%96%87%E9%9B%86/"/>
+      <category term="沁路文集" scheme="http://voidsun.github.io/tags/%E6%B2%81%E8%B7%AF%E6%96%87%E9%9B%86/"/>
     
-      <category term="沁路墨言" scheme="http://voidsun.net/categories/%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80/"/>
+      <category term="沁路墨言" scheme="http://voidsun.github.io/categories/%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[College Life]]></title>
-    <link href="http://voidsun.net/2016/02/02/College-Life/"/>
-    <id>http://voidsun.net/2016/02/02/College-Life/</id>
+    <link href="http://voidsun.github.io/2016/02/02/College-Life/"/>
+    <id>http://voidsun.github.io/2016/02/02/College-Life/</id>
     <published>2016-02-02T12:23:51.000Z</published>
     <updated>2016-02-02T12:35:48.000Z</updated>
     <content type="html"><![CDATA[<p>又是一个夏去秋来的季节，抬头看了看窗外，才发现这么美丽的天空还是很久以前才停下来欣赏过，一直都是忙碌着，忙碌着，转眼间自己已经是站在大学与社会交接处的大四学生了，回首我的大学生活，心情是那么的百般复杂，犹如昨夜被风雨吹打过得草地，留下的，除了汗水，还有一颗晶莹剔透而又五彩斑斓的心。大学有太多太多的事物可以反复回味并从中受益，而那些如今让我记忆犹新的东西已经改变了我，让我不再胆怯，不再茫然，不再异想天开，不再随波逐流，不再忘记最初的梦想<br>。<br><a id="more"></a><br>或许和很多人一样，来到@@@并不是自己的初衷，当初以为自己可以走的更好，但是当我真正步入大学，却改变了这样的想法，因为我相信大学是一个崭新的起点。曾经我很内向，真正能很好沟通的朋友屈指可数，大学完全不一样的氛围冲击了我的所有感官，参加@@@的面试是第一次让我如此真诚的面对自己，在我认为的高压状况下，我开始变得淡定从容，变得心平气和，也开始变得有思想和有目标。因此，不管现状如何，也不要去过于埋怨，努力去尝试不同领域里的事物，比如我文章写得不好，却因为喜欢投过两次文章，很幸运都被发表在了校园的**专栏上，记得当时自己还特意收藏过那些书籍。不管我们有没有去刻意规划，有没有去做好准备，都要有一颗勇于尝试的心，也可以让自己有更丰富的经历，然后慢慢成长，收获到意想不到的东西并爱上这个我们曾经不喜欢的地方。   </p>
@@ -221,23 +221,23 @@
     
     </summary>
     
-      <category term="大学时光" scheme="http://voidsun.net/tags/%E5%A4%A7%E5%AD%A6%E6%97%B6%E5%85%89/"/>
+      <category term="大学时光" scheme="http://voidsun.github.io/tags/%E5%A4%A7%E5%AD%A6%E6%97%B6%E5%85%89/"/>
     
-      <category term="维度生活" scheme="http://voidsun.net/categories/%E7%BB%B4%E5%BA%A6%E7%94%9F%E6%B4%BB/"/>
+      <category term="维度生活" scheme="http://voidsun.github.io/categories/%E7%BB%B4%E5%BA%A6%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[【沁路墨言】思乡之切]]></title>
-    <link href="http://voidsun.net/2016/01/31/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E4%B9%A1%E4%B9%8B%E5%88%87/"/>
-    <id>http://voidsun.net/2016/01/31/【沁路墨言】思乡之切/</id>
+    <link href="http://voidsun.github.io/2016/01/31/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E4%B9%A1%E4%B9%8B%E5%88%87/"/>
+    <id>http://voidsun.github.io/2016/01/31/【沁路墨言】思乡之切/</id>
     <published>2016-01-31T12:35:58.000Z</published>
     <updated>2016-02-02T13:37:40.000Z</updated>
     <content type="html"><![CDATA[<p><blockquote class="blockquote-center">乱世浮尘，过眼芳华。无赖现实终承受；<br>风听雨静，于世山幽。儿时梦乡唯遥思。</blockquote><br><a id="more"></a></p>
 <p>作者：@沁路<br>于2013年10月，无数个思乡岁月里的某一个深夜</p>
 <p><br><br></p>
 <blockquote>
-<p><strong>作者</strong>：<strong>沁路</strong> <em><a href="http://voidsun.github.io/about/" target="_blank" rel="external">@VoidSun</a></em><br><strong>出处</strong>：<br><em><a href="http://voidsun.github.io/2016/01/31/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E4%B9%A1%E4%B9%8B%E5%88%87/" target="_blank" rel="external">http://voidsun.github.io/2016/01/31/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E4%B9%A1%E4%B9%8B%E5%88%87/</a></em><br><strong>声明</strong>：本文采用以下协议进行授权：<em><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 4.0</a></em>，转载请注明<strong>作者</strong>及<strong>出处</strong>。<br><br></p>
+<p><strong>作者</strong>：<strong>沁路</strong> <em><a href="http://voidsun.github.io/about/">@VoidSun</a></em><br><strong>出处</strong>：<br><em><a href="http://voidsun.github.io/2016/01/31/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E4%B9%A1%E4%B9%8B%E5%88%87/">http://voidsun.github.io/2016/01/31/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E6%80%9D%E4%B9%A1%E4%B9%8B%E5%88%87/</a></em><br><strong>声明</strong>：本文采用以下协议进行授权：<em><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 4.0</a></em>，转载请注明<strong>作者</strong>及<strong>出处</strong>。<br><br></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -245,16 +245,16 @@
     
     </summary>
     
-      <category term="沁路诗集" scheme="http://voidsun.net/tags/%E6%B2%81%E8%B7%AF%E8%AF%97%E9%9B%86/"/>
+      <category term="沁路诗集" scheme="http://voidsun.github.io/tags/%E6%B2%81%E8%B7%AF%E8%AF%97%E9%9B%86/"/>
     
-      <category term="沁路墨言" scheme="http://voidsun.net/categories/%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80/"/>
+      <category term="沁路墨言" scheme="http://voidsun.github.io/categories/%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[【沁路墨言】除夕杂感]]></title>
-    <link href="http://voidsun.net/2016/01/21/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E9%99%A4%E5%A4%95%E6%9D%82%E6%84%9F/"/>
-    <id>http://voidsun.net/2016/01/21/【沁路墨言】除夕杂感/</id>
+    <link href="http://voidsun.github.io/2016/01/21/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E9%99%A4%E5%A4%95%E6%9D%82%E6%84%9F/"/>
+    <id>http://voidsun.github.io/2016/01/21/【沁路墨言】除夕杂感/</id>
     <published>2016-01-21T12:59:46.000Z</published>
     <updated>2016-02-02T13:38:01.000Z</updated>
     <content type="html"><![CDATA[<blockquote class="blockquote-center">鞭炮声里已是春，<br>寒风凉肤依旧凄。<br>闲来除夕不能醉，<br>昨忆虽俗何处寻？</blockquote>
@@ -263,7 +263,7 @@
 <p>作者：@沁路<br>于2011年2月除夕夜</p>
 <p><br><br></p>
 <blockquote>
-<p><strong>作者</strong>：<strong>沁路</strong> <em><a href="http://voidsun.github.io/about/" target="_blank" rel="external">@VoidSun</a></em><br><strong>出处</strong>：<br><em><a href="http://voidsun.github.io/2016/01/21/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E9%99%A4%E5%A4%95%E6%9D%82%E6%84%9F/" target="_blank" rel="external">http://voidsun.github.io/2016/01/21/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E9%99%A4%E5%A4%95%E6%9D%82%E6%84%9F/</a></em><br><strong>声明</strong>：本文采用以下协议进行授权：<em><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 4.0</a></em>，转载请注明<strong>作者</strong>及<strong>出处</strong>。<br><br></p>
+<p><strong>作者</strong>：<strong>沁路</strong> <em><a href="http://voidsun.github.io/about/">@VoidSun</a></em><br><strong>出处</strong>：<br><em><a href="http://voidsun.github.io/2016/01/21/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E9%99%A4%E5%A4%95%E6%9D%82%E6%84%9F/">http://voidsun.github.io/2016/01/21/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E9%99%A4%E5%A4%95%E6%9D%82%E6%84%9F/</a></em><br><strong>声明</strong>：本文采用以下协议进行授权：<em><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 4.0</a></em>，转载请注明<strong>作者</strong>及<strong>出处</strong>。<br><br></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -271,23 +271,23 @@
     
     </summary>
     
-      <category term="沁路诗集" scheme="http://voidsun.net/tags/%E6%B2%81%E8%B7%AF%E8%AF%97%E9%9B%86/"/>
+      <category term="沁路诗集" scheme="http://voidsun.github.io/tags/%E6%B2%81%E8%B7%AF%E8%AF%97%E9%9B%86/"/>
     
-      <category term="沁路墨言" scheme="http://voidsun.net/categories/%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80/"/>
+      <category term="沁路墨言" scheme="http://voidsun.github.io/categories/%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[【沁路墨言】为此情]]></title>
-    <link href="http://voidsun.net/2016/01/20/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E4%B8%BA%E6%AD%A4%E6%83%85/"/>
-    <id>http://voidsun.net/2016/01/20/【沁路墨言】为此情/</id>
+    <link href="http://voidsun.github.io/2016/01/20/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E4%B8%BA%E6%AD%A4%E6%83%85/"/>
+    <id>http://voidsun.github.io/2016/01/20/【沁路墨言】为此情/</id>
     <published>2016-01-20T12:35:29.000Z</published>
     <updated>2016-02-02T13:36:30.000Z</updated>
     <content type="html"><![CDATA[<p><blockquote class="blockquote-center">莫名感觉，总被晨曦挥去；丝丝无尽，暖暖感动。<br>应为彼此，更应风雨兼程；落木悲秋，依存柔情。<br>命运多舛，只为那见之一笑，若黄昏，心依旧。<br>人生相随，但愿老翁寒钓，依有一山一水一知己。</blockquote><br><a id="more"></a></p>
 <p>作者：@沁路<br>于2012年1月，为此情，触心声。</p>
 <p><br><br></p>
 <blockquote>
-<p><strong>作者</strong>：<strong>沁路</strong> <em><a href="http://voidsun.github.io/about/" target="_blank" rel="external">@VoidSun</a></em><br><strong>出处</strong>：<br><em><a href="http://voidsun.github.io/2016/01/20/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E4%B8%BA%E6%AD%A4%E6%83%85/" target="_blank" rel="external">http://voidsun.github.io/2016/01/20/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E4%B8%BA%E6%AD%A4%E6%83%85/</a></em><br><strong>声明</strong>：本文采用以下协议进行授权：<em><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 4.0</a></em>，转载请注明<strong>作者</strong>及<strong>出处</strong>。<br><br></p>
+<p><strong>作者</strong>：<strong>沁路</strong> <em><a href="http://voidsun.github.io/about/">@VoidSun</a></em><br><strong>出处</strong>：<br><em><a href="http://voidsun.github.io/2016/01/20/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E4%B8%BA%E6%AD%A4%E6%83%85/">http://voidsun.github.io/2016/01/20/%E3%80%90%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80%E3%80%91%E4%B8%BA%E6%AD%A4%E6%83%85/</a></em><br><strong>声明</strong>：本文采用以下协议进行授权：<em><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 4.0</a></em>，转载请注明<strong>作者</strong>及<strong>出处</strong>。<br><br></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -295,9 +295,9 @@
     
     </summary>
     
-      <category term="沁路诗集" scheme="http://voidsun.net/tags/%E6%B2%81%E8%B7%AF%E8%AF%97%E9%9B%86/"/>
+      <category term="沁路诗集" scheme="http://voidsun.github.io/tags/%E6%B2%81%E8%B7%AF%E8%AF%97%E9%9B%86/"/>
     
-      <category term="沁路墨言" scheme="http://voidsun.net/categories/%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80/"/>
+      <category term="沁路墨言" scheme="http://voidsun.github.io/categories/%E6%B2%81%E8%B7%AF%E5%A2%A8%E8%A8%80/"/>
     
   </entry>
   
