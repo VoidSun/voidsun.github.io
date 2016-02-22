@@ -4,7 +4,7 @@
   <subtitle><![CDATA[沁路，会写作的猿思维。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://voidsun.net/"/>
-  <updated>2016-02-17T13:41:32.000Z</updated>
+  <updated>2016-02-22T10:38:31.000Z</updated>
   <id>http://voidsun.net/</id>
   
   <author>
@@ -19,12 +19,12 @@
     <link href="http://voidsun.net/2016/02/16/JUnit4-Usage-cases/"/>
     <id>http://voidsun.net/2016/02/16/JUnit4-Usage-cases/</id>
     <published>2016-02-16T11:01:50.000Z</published>
-    <updated>2016-02-17T13:41:32.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="1-JUnit_u6982_u8FF0"><a href="#1-JUnit_u6982_u8FF0" class="headerlink" title="1.JUnit概述"></a>1.JUnit概述</h2><blockquote>
+    <updated>2016-02-22T10:38:31.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="0x00_JUnit_u6982_u8FF0"><a href="#0x00_JUnit_u6982_u8FF0" class="headerlink" title="0x00 JUnit概述"></a>0x00 JUnit概述</h2><blockquote>
 <p>在软件开发领域，从来就没有如此少的代码起到了如此重要的作用。   </p>
 </blockquote>
 <p>这句话源自Martin Fowler的评价，从这句话可以看出JUnit的特性和重要性。关于JUnit更为详细的阐述可以参见<a href="http://www.ibm.com/developerworks/cn/java/j-junit4.html" target="_blank" rel="external">JUnit4IBM</a>和<a href="http://blog.csdn.net/andycpp/article/details/1327147" target="_blank" rel="external">JUnit4Eclipse</a>，JUnit的源码参见<a href="https://github.com/junit-team" target="_blank" rel="external">JUnit4Github</a>。本文也是在上述文献的基础上，旨在更加简单快捷使用，总结出一份JUnit的基本用例。<br><a id="more"></a></p>
-<h2 id="2-JUnit_u57FA_u672C_u7528_u4F8B"><a href="#2-JUnit_u57FA_u672C_u7528_u4F8B" class="headerlink" title="2.JUnit基本用例"></a>2.JUnit基本用例</h2><p>本用例只是基于JUnit4的用法，使用最基本且最易懂的注释方式进行阐述。   </p>
+<h2 id="0x01_JUnit_u57FA_u672C_u7528_u4F8B"><a href="#0x01_JUnit_u57FA_u672C_u7528_u4F8B" class="headerlink" title="0x01 JUnit基本用例"></a>0x01 JUnit基本用例</h2><p>本用例只是基于JUnit4的用法，使用最基本且最易懂的注释方式进行阐述。   </p>
 <pre><code class="java"><span class="keyword">package</span> com.voidsun.junit.test;
 
 <span class="comment">// 使用static修饰，类似断言Assert.assertEquals(x,y)，则简化为assertEquals(x,y)</span>
@@ -134,7 +134,7 @@
 <p>除上述基本功能外，JUnit还有很多其他功能，本文将不赘述。<br><br><br></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="1-JUnit_u6982_u8FF0"><a href="#1-JUnit_u6982_u8FF0" class="headerlink" title="1.JUnit概述"></a>1.JUnit概述</h2><blockquote>
+    <![CDATA[<h2 id="0x00_JUnit_u6982_u8FF0"><a href="#0x00_JUnit_u6982_u8FF0" class="headerlink" title="0x00 JUnit概述"></a>0x00 JUnit概述</h2><blockquote>
 <p>在软件开发领域，从来就没有如此少的代码起到了如此重要的作用。   </p>
 </blockquote>
 <p>这句话源自Martin Fowler的评价，从这句话可以看出JUnit的特性和重要性。关于JUnit更为详细的阐述可以参见<a href="http://www.ibm.com/developerworks/cn/java/j-junit4.html">JUnit4IBM</a>和<a href="http://blog.csdn.net/andycpp/article/details/1327147">JUnit4Eclipse</a>，JUnit的源码参见<a href="https://github.com/junit-team">JUnit4Github</a>。本文也是在上述文献的基础上，旨在更加简单快捷使用，总结出一份JUnit的基本用例。<br>]]>
